@@ -24,9 +24,9 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "public_suffix"
   
   s.add_runtime_dependency "logstash-codec-plain"
-  s.add_runtime_dependency "rest-client", '~> 1.8', ">= 1.8.0"
-  s.add_development_dependency "logstash-devutils"
-  s.add_development_dependency "logstash-filter-json"
-  s.add_development_dependency "logstash-input-generator"
-  s.add_development_dependency "webmock", "~> 1.22", ">= 1.21.0"
+  s.add_runtime_dependency "rest-client"
+ # s.add_development_dependency "logstash-devutils"
+ # s.add_development_dependency "logstash-filter-json"
+ # s.add_development_dependency "logstash-input-generator"
+ # s.add_development_dependency "webmock", "~> 1.22", ">= 1.21.0"
 end
